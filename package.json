@@ -1,0 +1,25 @@
+{
+  "name": "reactive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/server.js",
+    "build": "tsc",
+    "test": "jest --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^8.10.66",
+    "jest": "^27.5.1",
+    "pouchdb-adapter-idb": "^7.2.2",
+    "pouchdb-adapter-memory": "^7.2.2",
+    "pouchdb-adapter-node-websql": "^7.0.0",
+    "rxdb": "^11.6.0",
+    "rxjs": "^7.5.5",
+    "ts-jest": "^27.1.3"
+  }
+}
